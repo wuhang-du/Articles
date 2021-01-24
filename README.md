@@ -11,7 +11,7 @@ including articles from everywhere。
 
 ##### 预期要看的链接或者书籍
 书：  
-https://hpbn.co/   
+https://hpbn.co/      
 Designing Data-Intensive Applications  
 
 链接：  
