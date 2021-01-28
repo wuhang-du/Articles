@@ -15,7 +15,6 @@ https://hpbn.co/
 Designing Data-Intensive Applications  
 
 链接：  
-https://www.cubrid.org/index.php?mid=blog&page=2&document_srl=3826497  
 https://draveness.me/system-design-scheduler/  
 https://mp.weixin.qq.com/s/GGorNudXw7vSsgO-DVwSLw    
 
