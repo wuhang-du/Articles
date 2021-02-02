@@ -30,4 +30,5 @@ webrtc: https://mp.weixin.qq.com/s/GGorNudXw7vSsgO-DVwSLw
 http-flv: https://www.trickyedecay.me/2019/03/17/how-to-setup-an-live-server-with-nginx-base-on-http-flv/   
 http-flv: https://cloud.tencent.com/developer/article/1619672  
 gop: https://www.jianshu.com/p/b658e1f65a2a  
-communicate: https://basecamp.com/guides/how-we-communicate
+communicate: https://basecamp.com/guides/how-we-communicate  
+service-mesh: https://philcalcado.com/2017/08/03/pattern_service_mesh.html
