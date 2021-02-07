@@ -6,21 +6,23 @@ including articles from everywhere。
 
 ##### 资源管理相关
 
-[throughput-autoscaling](https://engineering.fb.com/2020/09/14/networking-traffic/throughput-autoscaling/)
+1月：[throughput-autoscaling](https://engineering.fb.com/2020/09/14/networking-traffic/throughput-autoscaling/)
 
 ##### 直播业务相关    
-[华为-rtc](https://mp.weixin.qq.com/s/YQjHqAYlZTwwIdIhRB5Cfg)   
-[ali-GRTN](https://developer.aliyun.com/article/778264?utm_content=g_1000205299&comefrom=https://blogread.cn/news/)
+1月：[华为-rtc](https://mp.weixin.qq.com/s/YQjHqAYlZTwwIdIhRB5Cfg)   
+1月：[ali-GRTN](https://developer.aliyun.com/article/778264?utm_content=g_1000205299&comefrom=https://blogread.cn/news/)  
+2月：[低延时直播cdn](https://developer.aliyun.com/article/657895?spm=a2c6h.12873581.0.0.6d1a29f01tXxZy&groupCode=edgecomputing)
 
 ##### 协议层相关   
-[Understanding TCP/IP Network Stack & Writing Network Apps](https://www.cubrid.org/index.php?mid=blog&page=2&document_srl=3826497)
+1月：[Understanding TCP/IP Network Stack & Writing Network Apps](https://www.cubrid.org/index.php?mid=blog&page=2&document_srl=3826497)  
+2月：[traceroute](https://www.freebuf.com/articles/network/118221.html)  
 
 ##### 个人素质  
-书：务实的程序员
+1月：书：务实的程序员
 
 # 2021年to do
 书：  
-https://hpbn.co/      
+https://hpbn.co/   
 Designing Data-Intensive Applications  
 [bpf-cilium](https://github.com/cilium/cilium)
 

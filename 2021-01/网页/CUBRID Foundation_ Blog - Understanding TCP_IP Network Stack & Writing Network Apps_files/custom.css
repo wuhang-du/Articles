@@ -1,0 +1,306 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+/*나눔 폰트 적용 */
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px; 
+  line-height: 28px;
+  // font-family: "Open Sans", "Helvetica Neue", Helvetica, "Nanum Gothic", dotum, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif;
+  color: #666;
+  overflow-x: hidden;
+}
+
+
+/* 폼 값 중에서 email 타입에 대한 스타일 지정 */
+
+input[type="email"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.bg-secondary input[type="email"]{
+  background: #fff;
+}
+
+input[type="email"]{
+  background: #f5f5f5;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+}
+
+.image-bg input[type="email"]{
+  color: #555;
+}
+
+input[type="email"]:focus {
+  outline: 1px solid #ccc;
+}
+
+.control-label, .image-bg .feature.bordered label{
+	/* color:white; */
+	color:#555;
+}
+
+.button-tabs .tab-title a{
+    font-family: "Raleway", "Helvetica Neue", "Nanum Gothic", dotum, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+	color:#666;
+}
+
+.button-tabs .active .tab-title a{
+	color:#fff;
+}
+
+.dl-horizontal dt,.dl-horizontal dd{
+	line-height:2em;
+}
+
+.member_wrapper .button-tabs .tabs{
+	margin-bottom:0;
+	
+}
+
+.__submit_group button[type="submit"],
+.__submit_group input[type="submit"]{
+	width:auto;
+	height:30px;
+	line-height:27px;
+	font-size:11px;
+}
+
+.img-carousel{
+	position:relative;
+}
+
+.img-carousel li:hover .background-image-holder {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.horizontal-tile {
+  overflow: hidden;
+}
+.horizontal-tile:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+.tile-left,
+.tile-right {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  min-height: 300px;
+  position: relative;
+}
+.tile-right .description,
+.tile-left .description {
+  padding: 48px;
+}
+.tile-right:hover .background-image-holder,
+.tile-left:hover .background-image-holder {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.menu > li{
+	margin-right:10px;
+	padding-right:18px;
+}
+
+.has-dropdown:after{
+	  display:none;
+  }
+  
+.nav-utility{
+	position:relative;
+	z-index:10;
+	overflow:visible;
+	border-bottom-color:#e1e1e1;
+}
+.nav-bar{
+	position:relative;
+	z-index:9;
+}
+
+.module .menu{
+	height:44px;
+}
+
+.module.widget-handle i{
+	line-height:39px;
+	}
+
+	
+.container .menu > li:last-child {
+	padding-right:0;
+}
+
+.btn{
+	text-shadow:none;
+}
+
+.btn-sm{
+	font-size:12px;
+}
+
+.top-right-menu a{
+	color:#aaa;
+}
+.module.top-right-menu a{
+	padding-left:15px;	
+}
+.menu li a{
+	opacity:0.8;
+}
+
+hr{
+	clear:both;
+}
+
+.site-map{
+
+	
+}
+
+.site-map > li{
+	position:relative;
+	float:left;
+	display:block;
+	padding-right:65px;
+	margin-bottom:20px;
+}
+
+.site-map > li:last-child{
+	padding-right:0px;
+}
+
+.site-map > li > a{
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+.site-map > li > ul{
+	left:0;
+	padding-top:10px;
+	
+}
+.site-map > li > ul > li{
+	display:block;
+}
+
+.site-map > li > ul > li > a{
+	color:#888;
+	padding:5px 0;
+}
+
+
+.nav-bar{
+    height: 65px;
+    max-height: 65px;
+    line-height: 63px;
+}
+
+.logo{
+	max-height:85%;
+}
+div.bd,
+section.sub-content{
+	padding:60px 0;
+}
+
+@media (max-width: 990px){
+	.module.widget-handle{
+		border:none;
+	}
+	.module .menu{
+	  height:auto;
+	  }
+	  .nav-bar > .container{
+		  padding:0;
+	  }
+}
+@media all and (max-width: 767px) {
+	div.bd,
+	section.sub-content{
+	padding:30px 0;
+}
+
+  .tile-left,
+  .tile-right {
+    width: 100%;
+    float: none;
+  }
+  .has-dropdown:after{
+	  display:block;
+  }
+  .module{
+	  padding:0px;
+  }
+  
+.site-map > li{
+	padding-right:30px;
+}
+  
+  
+}
+
+#popup_menu_area {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 1.3;
+    box-shadow: 0 0 6px #666;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=135,strength=5);
+}
+
+#popup_menu_area ul{
+	margin-bottom:0;
+}
+
+pre.getting-started-example {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: inherit;
+    border: none;
+}
+
+pre.getting-started-example > code {
+    white-space: pre;
+    overflow-x: auto;
+}
+
+pre.getting-started-example > code > var {
+    color: #a94442; /* text-danger */
+}
+
+pre.getting-started-example > code > strong {
+    color: #31708f; /* text-info */
+}
+
+.bd_zine {
+  font-size: 14px; 
+}
+/* 구글 CSE 광고 숨기기 */
+.gsc-adBlock {
+display: none !important;
+}

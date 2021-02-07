@@ -1,4 +1,4 @@
-# RTC相关技术    
+# RTC相关技术(Real-Time Communication)    
 [ali-GRTN]    
 重点总结：  
 1. 混合组网：树状层级结构+对等图形网
