@@ -34,4 +34,6 @@ Designing Data-Intensive Applications
 sched: https://draveness.me/system-design-scheduler/          
 communicate: https://basecamp.com/guides/how-we-communicate  
 service-mesh: https://philcalcado.com/2017/08/03/pattern_service_mesh.html  
+taiji: https://draveness.me/papers-taiji/  
+akamai: https://blogs.akamai.com/index2.html  
 bt下载原理
