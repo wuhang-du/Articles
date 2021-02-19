@@ -32,5 +32,7 @@ offset实际起到了两个作用：
 
 去单源之后，不用拼接数据，chunk内的tag起始位置自我标识，就不用offset了。
 
-ps： 这块chunkid与offset的转换还是有点问题：
+chunk对齐这里：
 chunkid = (index*(11+4)+offset)/chunksize. chunksize=32*864-16.
+index是自开始切片后的帧数，11是tag头，4是prev_tag_size,offset是净内容。
+16是我们自己添加的扩展字段。
