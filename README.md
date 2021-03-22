@@ -35,7 +35,7 @@ Designing Data-Intensive Applications
 [bpf-cilium](https://github.com/cilium/cilium) && https://networkop.co.uk/post/2021-03-ebpf-intro/
 
 链接：  
-sched: https://draveness.me/system-design-scheduler/          
+sched: https://draveness.me/system-design-scheduler/ , https://io-meter.com/2018/02/09/A-summary-of-designing-schedulers/            
 communicate: https://basecamp.com/guides/how-we-communicate     
 akamai: https://blogs.akamai.com/index2.html  
 bt下载原理  
